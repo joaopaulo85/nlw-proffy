@@ -1,65 +1,82 @@
-<h1 align="center">
-    <img alt="Proffy" src=".github/logo.svg" height="100px" />
-    <br>Next Level Week #2<br/>
-    Node.js | ReactJS 
-</h1>
+<p  align="center">
+	 <img alt="Proffy" src=".github/logo.svg" height="100px" />  
+</p>
 
-## :bookmark: Sobre
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/joaopaulu/nlw-proffy">
 
-O **Proffy** é uma aplicação Web e Mobile feita para auxiliar na conexão entre os alunos e os professores. Logo, esta aplicação oferece aos professores a possibilidade de registrar aulas, podendo adicionar informações como a disciplina, o custo e horário e aos alunos a possibilidade de buscar pelas aulas cadastradas.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/joaopaulu/nlw-proffy">
+
+  <a href="https://github.com/joaopaulu/nlw-proffy/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/joaopaulu/nlw-proffy">
+  </a>
+
+  <a href="https://github.com/joaopaulu/readme-template/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/joaopaulu/nlw-proffy">
+  </a>
   
-Este projeto foi idealizado pensando no **6 de agosto**, onde se comemora o **Dia Nacional dos Profissionais da Educação**.
-  
-Essa aplicação foi realizada durante a Next **Level Week #2**, projeto da [Rocketseat](https://rocketseat.com.br/).
+</p>
 
-## :rocket: Tecnologias
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a> 
+</p>
 
--  [Typescript](https://www.typescriptlang.org/)
--  [Node.js](https://nodejs.org/en/)
--  [ReactJS](https://reactjs.org/)
--  [React Native](http://facebook.github.io/react-native/)
--  [Expo](https://expo.io/)
--  [Express](https://expressjs.com/)
--  [axios](https://github.com/axios/axios)
+## 👨🏻‍💻 About the project
 
-## :boom: Como Executar
+**Proffy** is a web application designed to help connect students and teachers. Therefore, this application offers teachers the possibility to register classes, being able to add information such as the discipline, the cost and schedule, and students the possibility to search for registered classes.
 
-- ### **Pré-requisitos**
+This project was conceived thinking about the **6th of August**, where the **National Day of Education Professionals** is celebrated.
 
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
-  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
-  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
+This application was made during Next Level Week #2, a Rocketseat project.
 
 
-1. Executando a Aplicação:
+To see the **api**, click here: [nlw-happy-backend Rest API](https://github.com/joaopaulu/nlw-proffy/tree/master/backend)</br>
 
-```sh
-  # API
-  $ cd server
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
-  # Configurando o banco de dados e criando as tabelas.
-  $ yarn knex:migrate # ou npm run knex:migrate
+## Layout project
 
-  # Inicie a API
-  $ yarn start # ou npm start
+![proffy](https://user-images.githubusercontent.com/66692428/96272018-efab5100-0fa3-11eb-8db7-5905a46b3796.gif)
 
-  # Aplicação web
-  $ cd web
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
-  # Inicie a aplicação web
-  $ yarn start # ou npm start
 
-  # Aplicação mobile
-  $ cd mobile
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
-  # Inicie a aplicação mobile
-  $ yarn start # ou npm start
+## 🚀 Technologies
+
+Technologies that I used to develop this web client
+
+- [NodeJS](https://nodejs.org/)
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router DOM](https://reacttraining.com/react-router/)
+- [React Icons](https://react-icons.netlify.com/#/)
+- [Yup](https://github.com/jquense/yup)
+- [Styled Components](https://styled-components.com/)
+- [Polished](https://github.com/styled-components/polished)
+- [Axios](https://github.com/axios/axios)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
+
+
+## 💻 Getting started
+
+### Requirements
+
+- Have this application's [API](https://github.com/joaopaulu/nlw-proffy/tree/master/backend) running
+
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/joaopaulu/nlw-proffy.git && cd nlw-proffy
 ```
 
+**Follow the steps below**
 
----
-<sup>Projeto desenvolvido com a tutoria de [Diego Fernandes](https://github.com/diego3g), da [Rocketseat](rocketseat.com.br).</sup>
+```bash
+# Install the dependencies
+$ yarn
+
+# Be sure the file 'src/services/api.ts' have the IP to your API
+
+# Start the client
+$ yarn start
+```
